@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100
+..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
+900;1,100;1,200;1,300;1,400;1,500;1,600;
+1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" spellcheck="false" placeholder="Enter city name" class="search-input">
+            <button><img src="search.png" alt="" class="search-btn"></button>
+        </div>
+        <div class="temprature">
+            <img src="clear.png" alt="" class="main-img"><span class="weather-condition" style="color: white;">Clear</span>
+            <p class="tem-text">22°C</p>
+            <p class="city">New York</p>
+
+        </div>
+        <div class="hum-wind">
+            <div class="humadity">
+                <img src="humidity.png" alt="humadity">
+                <p class="humadity-text">50%</p>
+
+            </div>
+            <div class="wind-speed">
+                <img src="wind.png" alt="wind">
+                <p class="wind-text">15 Km/h</p>
+            </div>
+        </div>
+        <div class="names">
+            <p>Humidity</p>
+            <p>Wind speed</p>
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
