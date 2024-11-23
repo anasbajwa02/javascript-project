@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC PLAYER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div class="icons">
+                <h3>Enjoy Your Music</h3>
+               <!-- <div class="less"> <i class="fa-solid fa-less-than"></i></div>
+               <div class="menu"> <i class="fa-solid fa-bars"></i></div> -->
+            </div>
+            <div class="music-img">
+                <img src="img.jpg" alt="" id="music-pic">
+                <p class="music-name">HAS HAS</p>
+            </div>
+            <div class="music">
+                <div class="pre" style="margin: 5px 10px 0 0;" onclick="pre()"><i class="fa-solid fa-less-than"></i></div>
+                <audio controls  id="song">
+                    <!-- <source src="song.mp4" type="audio/mp4" id="song"> -->
+                </audio>
+                <div class="greater" style="margin: 5px 0 0 10px;padding: 0 0 0 4px;" onclick="next()"><i class="fa-solid fa-greater-than" ></i></div>
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
