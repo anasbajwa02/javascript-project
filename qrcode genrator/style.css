@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #262A30;
+}
+.container{
+    background-color: white;
+    width: 30%;
+    padding: 20px 0 0 40px;
+    transform: translate(50%,30%);
+}
+#input{
+    width: 80%;
+    margin: 20px 0 0 0 ;
+    height: 30px;
+}
+button{
+    border: none;
+    background-color: #404BCF;
+    color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px 0 50px 0;
+}
+img{
+    margin: 20px 0 0 80px;
+    height: 150px;
+   
+}
